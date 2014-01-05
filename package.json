@@ -18,15 +18,12 @@
     "istanbul"
   ],
   "author": "Ahmed Nuaman <ahmed@ahmednuaman.com>",
-  "dependencies": {
-  },
-  "peerDependencies": {
-    "karma": ">=0.9"
-  },
   "license": "MIT",
   "devDependencies": {
+    "coffee-script": "~1.6.3",
+    "istanbul": "~0.2.3"
   },
   "contributors": [
-    "Ahmed Nuaman <ahmed@ahmednuaman.com>",
+    "Ahmed Nuaman <ahmed@ahmednuaman.com>"
   ]
 }
