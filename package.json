@@ -2,9 +2,9 @@
   "name": "kahvesi",
   "version": "0.0.1",
   "description": "A coffeescript coverage tool using Istanbul",
-  "main": "lib/index.js",
+  "main": "lib/kahvesi.js",
   "scripts": {
-    "test": "grunt test"
+    "test": "nodeunit test/*-test.coffee"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
   "license": "MIT",
   "devDependencies": {
     "coffee-script": "~1.6.3",
+    "docco": "~0.6.2",
     "istanbul": "~0.2.3",
     "nodeunit": "~0.8.2"
   },
