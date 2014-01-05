@@ -1,0 +1,32 @@
+{
+  "name": "kahvesi",
+  "version": "0.0.1",
+  "description": "A coffeescript coverage tool using Istanbul",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ahmednuaman/kahvesi.git"
+  },
+  "keywords": [
+    "coverage",
+    "coffee",
+    "coffeescript",
+    "kahvesi",
+    "istanbul"
+  ],
+  "author": "Ahmed Nuaman <ahmed@ahmednuaman.com>",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  },
+  "license": "MIT",
+  "devDependencies": {
+  },
+  "contributors": [
+    "Ahmed Nuaman <ahmed@ahmednuaman.com>",
+  ]
+}
