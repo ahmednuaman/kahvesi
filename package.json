@@ -22,10 +22,13 @@
   ],
   "author": "Ahmed Nuaman <ahmed@ahmednuaman.com>",
   "license": "MIT",
+  "dependencies": {
+    "istanbul": "~0.2.3",
+    "optimist": "~0.6.0"
+  },
   "devDependencies": {
     "coffee-script": "~1.6.3",
     "docco": "~0.6.2",
-    "istanbul": "~0.2.3",
     "nodeunit": "~0.8.2"
   },
   "contributors": [
