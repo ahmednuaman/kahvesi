@@ -28,5 +28,3 @@ module.exports = (files) ->
     else
       # Add this `.coffee` file to the `coffeeFiles` array.
       coffeeFiles.push file
-
-  console.log coffeeFiles
