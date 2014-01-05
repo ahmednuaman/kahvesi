@@ -17,6 +17,9 @@ clean: clean-docs
 build:
 	coffee -o lib/ -c src/ && coffee -c test/*-test.coffee
 
+watch:
+	coffee -o lib/ -cw src/
+
 test:
 	nodeunit test/*-test.js
 

@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "A coffeescript coverage tool using Istanbul",
   "main": "lib/kahvesi.js",
+  "bin": {
+    "kahvesi": "bin/kahvesi"
+  },
   "scripts": {
     "test": "nodeunit test/*-test.coffee"
   },
