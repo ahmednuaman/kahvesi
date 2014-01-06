@@ -2,6 +2,8 @@ _ = require 'lodash'
 fs = require 'fs'
 glob = require 'glob'
 
+exports.Instrumenter = require './instrumenter'
+
 module.exports = (files) ->
   # The files we want to cover.
   coffeeFiles = []
@@ -28,3 +30,6 @@ module.exports = (files) ->
     else
       # Add this `.coffee` file to the `coffeeFiles` array.
       coffeeFiles.push file
+
+  # Prepare the `instrumenter` to parse the files
+  instrumenter = new Instrumenter()
